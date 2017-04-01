@@ -68,19 +68,19 @@ namespace TestApp
             // dateTimePicker1
             // 
             this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker1.Location = new System.Drawing.Point(64, 90);
+            this.dateTimePicker1.Location = new System.Drawing.Point(38, 60);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(160, 28);
+            this.dateTimePicker1.Size = new System.Drawing.Size(96, 21);
             this.dateTimePicker1.TabIndex = 2;
             this.dateTimePicker1.Visible = false;
             // 
             // textBoxComment
             // 
             this.textBoxComment.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBoxComment.Location = new System.Drawing.Point(64, 168);
+            this.textBoxComment.Location = new System.Drawing.Point(38, 112);
             this.textBoxComment.Multiline = true;
             this.textBoxComment.Name = "textBoxComment";
-            this.textBoxComment.Size = new System.Drawing.Size(160, 26);
+            this.textBoxComment.Size = new System.Drawing.Size(96, 17);
             this.textBoxComment.TabIndex = 3;
             this.textBoxComment.Visible = false;
             // 
@@ -88,27 +88,27 @@ namespace TestApp
             // 
             this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox1.IntegralHeight = false;
-            this.comboBox1.ItemHeight = 18;
-            this.comboBox1.Location = new System.Drawing.Point(64, 129);
+            this.comboBox1.ItemHeight = 12;
+            this.comboBox1.Location = new System.Drawing.Point(38, 86);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(160, 26);
+            this.comboBox1.Size = new System.Drawing.Size(96, 20);
             this.comboBox1.TabIndex = 1;
             this.comboBox1.Visible = false;
             // 
             // textBoxPassword
             // 
             this.textBoxPassword.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBoxPassword.Location = new System.Drawing.Point(64, 207);
+            this.textBoxPassword.Location = new System.Drawing.Point(38, 138);
             this.textBoxPassword.Name = "textBoxPassword";
             this.textBoxPassword.PasswordChar = '*';
-            this.textBoxPassword.Size = new System.Drawing.Size(160, 28);
+            this.textBoxPassword.Size = new System.Drawing.Size(96, 21);
             this.textBoxPassword.TabIndex = 4;
             this.textBoxPassword.Visible = false;
             // 
             // numericUpDown1
             // 
             this.numericUpDown1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.numericUpDown1.Location = new System.Drawing.Point(64, 246);
+            this.numericUpDown1.Location = new System.Drawing.Point(38, 164);
             this.numericUpDown1.Maximum = new decimal(new int[] {
             230,
             0,
@@ -120,7 +120,7 @@ namespace TestApp
             0,
             0});
             this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(160, 28);
+            this.numericUpDown1.Size = new System.Drawing.Size(96, 21);
             this.numericUpDown1.TabIndex = 5;
             this.numericUpDown1.Value = new decimal(new int[] {
             120,
@@ -133,9 +133,9 @@ namespace TestApp
             // 
             this.checkBoxDoubleClickActivation.Checked = true;
             this.checkBoxDoubleClickActivation.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBoxDoubleClickActivation.Location = new System.Drawing.Point(16, 13);
+            this.checkBoxDoubleClickActivation.Location = new System.Drawing.Point(10, 9);
             this.checkBoxDoubleClickActivation.Name = "checkBoxDoubleClickActivation";
-            this.checkBoxDoubleClickActivation.Size = new System.Drawing.Size(352, 26);
+            this.checkBoxDoubleClickActivation.Size = new System.Drawing.Size(211, 17);
             this.checkBoxDoubleClickActivation.TabIndex = 6;
             this.checkBoxDoubleClickActivation.Text = "DoubleClickActivation";
             this.checkBoxDoubleClickActivation.CheckedChanged += new System.EventHandler(this.checkBoxDoubleClickActivation_CheckedChanged);
@@ -148,17 +148,17 @@ namespace TestApp
                         | System.Windows.Forms.AnchorStyles.Right)));
             this.listViewEx1.DoubleClickActivation = false;
             this.listViewEx1.FullRowSelect = true;
-            this.listViewEx1.Location = new System.Drawing.Point(16, 52);
+            this.listViewEx1.Location = new System.Drawing.Point(10, 35);
             this.listViewEx1.Name = "listViewEx1";
-            this.listViewEx1.Size = new System.Drawing.Size(328, 145);
+            this.listViewEx1.Size = new System.Drawing.Size(544, 273);
             this.listViewEx1.TabIndex = 7;
             this.listViewEx1.UseCompatibleStateImageBehavior = false;
             this.listViewEx1.View = System.Windows.Forms.View.Details;
             // 
             // Form1
             // 
-            this.AutoScaleBaseSize = new System.Drawing.Size(10, 21);
-            this.ClientSize = new System.Drawing.Size(360, 205);
+            this.AutoScaleBaseSize = new System.Drawing.Size(6, 14);
+            this.ClientSize = new System.Drawing.Size(564, 314);
             this.Controls.Add(this.checkBoxDoubleClickActivation);
             this.Controls.Add(this.textBoxPassword);
             this.Controls.Add(this.textBoxComment);

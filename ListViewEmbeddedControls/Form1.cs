@@ -86,17 +86,17 @@ namespace ListViewEmbeddedControls
             // 
             this.comboBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox1.Location = new System.Drawing.Point(32, 407);
+            this.comboBox1.Location = new System.Drawing.Point(19, 419);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(256, 26);
+            this.comboBox1.Size = new System.Drawing.Size(154, 20);
             this.comboBox1.TabIndex = 1;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // label1
             // 
-            this.label1.Location = new System.Drawing.Point(32, 26);
+            this.label1.Location = new System.Drawing.Point(19, 17);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(704, 26);
+            this.label1.Size = new System.Drawing.Size(423, 18);
             this.label1.TabIndex = 2;
             this.label1.Text = "The columns can be reordered and sorted";
             // 
@@ -122,9 +122,9 @@ namespace ListViewEmbeddedControls
             listViewItem6,
             listViewItem7,
             listViewItem8});
-            this.listView1.Location = new System.Drawing.Point(32, 52);
+            this.listView1.Location = new System.Drawing.Point(19, 35);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(537, 342);
+            this.listView1.Size = new System.Drawing.Size(562, 376);
             this.listView1.TabIndex = 0;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
@@ -147,7 +147,7 @@ namespace ListViewEmbeddedControls
             // 
             // Form1
             // 
-            this.AutoScaleBaseSize = new System.Drawing.Size(10, 21);
+            this.AutoScaleBaseSize = new System.Drawing.Size(6, 14);
             this.ClientSize = new System.Drawing.Size(601, 443);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.comboBox1);
